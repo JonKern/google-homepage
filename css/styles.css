@@ -1,7 +1,25 @@
 header {
-
+    display:flex;
 }
 
+header.about {
+
+}
+header.store {
+
+}
+header.gmail{
+
+}
+header.images{
+
+}
+header.apps{
+
+}
+header.account{
+
+}
 body {
     background-color: rgb(255, 255, 255);
   }
@@ -11,5 +29,30 @@ body {
   }
 
 footer {
+    display:flex;
+}
 
-  }
+footer.advert {
+
+}
+footer.business {
+
+}
+footer.how-search{
+
+}
+footer.leaf{
+
+}
+footer.carbon{
+
+}
+footer.privacy{
+    
+}
+footer.terms{
+    
+}
+footer.settings{
+    
+}
