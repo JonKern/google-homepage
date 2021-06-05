@@ -14,29 +14,44 @@ button {
     cursor: pointer;    
 }
 
-
-header {
-    display:flex;
+ul.l {
+  float: left;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
 
-header .about {
-
+ul.r {
+  float: right;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
-header .store {
 
+li {
+  float: left;
 }
-header .gmail{
 
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
-header .images{
 
+li a:hover:not(.active) {
+  background-color: #111;
 }
-header .apps{
 
+.active {
+  background-color: #04AA6D;
 }
-header .account{
 
-}
 body {
     background-color: rgb(255, 255, 255);
   }
