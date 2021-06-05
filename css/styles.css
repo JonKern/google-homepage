@@ -40,7 +40,19 @@ header .account{
 body {
     background-color: rgb(255, 255, 255);
   }
-  
+
+input {
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+    width: 482px;
+    width: auto;
+  }
 h1 {
     color: rgb(0, 0, 0);
   }
