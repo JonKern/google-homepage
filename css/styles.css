@@ -15,16 +15,16 @@ button {
 }
 
 ul {
-    list-style-type: none;
+  list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
 }
-ul.l {
+ul.tl {
   float: left;
 }
 
-ul.r {
+ul.tr {
   float: right;
 }
 
@@ -32,7 +32,7 @@ li {
   float: left;
 }
 
-li a {
+li.t a {
   display: block;
   color: #272727;
   text-align: center;
