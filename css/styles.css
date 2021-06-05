@@ -14,22 +14,19 @@ button {
     cursor: pointer;    
 }
 
-ul.l {
-  float: left;
-  list-style-type: none;
+ul {
+    list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #FFFFFF;
+}
+ul.l {
+  float: left;
 }
 
 ul.r {
   float: right;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
 }
 
 li {
@@ -38,7 +35,7 @@ li {
 
 li a {
   display: block;
-  color: white;
+  color: #272727;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
