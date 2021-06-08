@@ -3,12 +3,26 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
+  font-family: roboto, arial, sans-serif;
 }
+
 ul.tl {
   float: left;
 }
 
 ul.tr {
+  float: right;
+}
+
+ul.bl {
+  float: left;
+}
+
+ul.bc {
+  float: default;
+}
+
+ul.br {
   float: right;
 }
 
@@ -20,6 +34,16 @@ li.t a {
   display: block;
   color: #272727;
   text-align: center;
+  font-size: 13px;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li.b a {
+  display: block;
+  color: #272727;
+  text-align: center;
+  font-size: 13px;
   padding: 14px 16px;
   text-decoration: none;
 }
@@ -29,15 +53,16 @@ li a:hover:not(.active) {
 }
 
 body {
-    background-color: rgb(255, 255, 255);
-  }
-
-
-footer {
-    display: flex;
-    background: #f2f2f2;
+  background-color: rgb(255, 255, 255);
 }
 
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #f2f2f2;
+}
 
 img {
   display: block;
@@ -68,19 +93,19 @@ input {
   width: 482px;
 }
 
-button {  
-  background-color: #F8F9FA;
-  border: 1px solid #F8F9FA;
+button {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
   border-radius: 4px;
-  color: #3C4043;
+  color: #3c4043;
   font-family: roboto, arial, sans-serif;
   font-size: 14px;
-  margin: 11px 16px;    
+  margin: 11px 16px;
   padding: 0 16px;
   line-height: 27px;
   height: 36px;
   min-width: 54px;
-  text-align: center; 
+  text-align: center;
   cursor: pointer;
 }
 
@@ -88,13 +113,12 @@ button.l {
   position: absolute;
   top: 37%;
   left: 42%;
-  transform: translate(-50%, -50%)
-
+  transform: translate(-50%, -50%);
 }
 
 button.r {
   position: absolute;
   top: 37%;
   left: 54%;
-  transform: translate(-50%, -50%)
+  transform: translate(-50%, -50%);
 }
