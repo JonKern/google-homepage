@@ -41,7 +41,7 @@ li.t a {
 
 li.b a {
   display: block;
-  color: #272727;
+  color: #74757a;
   text-align: center;
   font-size: 13px;
   padding: 14px 16px;
@@ -68,6 +68,17 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+#profile {
+  border-radius: 50%;
+  padding: 10px 20px;
+}
+
+#apps {
+  border-radius: 50%;
+  width: 50%;
+  height: 50%;
 }
 
 img.logo {
